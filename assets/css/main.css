@@ -1872,8 +1872,8 @@ body.is-preload #footer {
 .container {
   max-width: 480px;
   margin: auto;
-  border: #fff solid 3px;
-  background: #fff;
+  /* border: #fff solid 3px; */
+  /* background: #fff; */
 }
 
 .main-img img,
