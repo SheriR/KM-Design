@@ -1267,11 +1267,12 @@ button {
     rgba(19, 21, 25, 0.5),
     rgba(19, 21, 25, 0.5)
   );
-  /* url("../../images/overlay.png");
+  /* url("../../images/whiteoverlay.png") */
+  /* url("../../images/overlay.png"); */
   background-size: auto, 256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
-  z-index: 2; */
+  z-index: 2;
 }
 
 #bg:after {
@@ -1286,17 +1287,15 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  /* background-image: url("../../images/bg.jpg"); */
   /* background-image: url("../../images/greenpurple\ image.jpg"); */
   /* background-image: url("../../images/redorangelight.jpg"); */
   /* background-image: url("../../images/redorangeyellow.jpg"); */
   /* background-image: url("../../images/red.jpg"); */
-  /* background-image: url("../../images/yellow.jpg"); */
   /* background-image: url("../../images/redorangecurve.jpg"); */
   /* background-image: url("../../images/redblack.jpg"); */
-  /* background-image: url("../../images/lights.jpg"); */
-  /* background-image: url("../../images/orangeblack.jpg"); */
-  background-image: url("../../images/redblack2.jpg");
+  /* background-image: url("../../images/redblack2.jpg"); */
+  /* background-image: url("../../images/katbackground1.jpg"); */
+  background-image: url("../../images/bubblebackground.png");
 
   background-position: center;
   background-size: cover;
@@ -1391,7 +1390,8 @@ body.is-preload #bg:before {
     -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
-  /* background-image: -moz-radial-gradient(
+
+  background-image: -moz-radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
   );
@@ -1406,7 +1406,7 @@ body.is-preload #bg:before {
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
-  ); */
+  );
   max-width: 100%;
   text-align: center;
 }
@@ -1439,14 +1439,14 @@ body.is-preload #bg:before {
   display: none;
 }
 
-/* #header .logo {
-  font-size: 40px; 
+#header .logo {
+  font-size: 40px;
   width: 5.5rem;
   height: 5.5rem;
   line-height: 5.5rem;
   border: solid 1px #ffffff;
   border-radius: 100%;
-} */
+}
 
 #header .logo .icon:before {
   font-size: 2rem;
@@ -1695,7 +1695,7 @@ body.is-preload #header .content .inner {
   position: relative;
   width: 40rem;
   max-width: 100%;
-  /* background-color: rgba(27, 31, 34, 0.85); */
+  background-color: rgba(27, 31, 34, 0.85);
   border-radius: 4px;
   opacity: 0;
 }
