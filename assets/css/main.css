@@ -231,7 +231,7 @@ textarea {
   color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: 1.65;
 }
 
@@ -266,6 +266,7 @@ i {
 
 p {
   margin: 0 0 2rem 0;
+  line-height: 1.2rem;
 }
 
 /* h1, */
@@ -298,13 +299,15 @@ h3.major,
 h4.major,
 h5.major,
 h6.major {
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #6b6b6b;
+  /* border-bottom: solid 1px #ffffff; */
   width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
   padding-bottom: 0.5rem;
   margin: 0 0 2rem 0;
+  color: #6b6b6b;
 }
 
 h1 {
@@ -502,7 +505,7 @@ label {
   text-transform: uppercase;
 }
 
-input[type="text"],
+/* input[type="text"],
 input[type="password"],
 input[type="email"],
 input[type="tel"],
@@ -529,9 +532,9 @@ textarea {
   padding: 0 1rem;
   text-decoration: none;
   width: 100%;
-}
+} */
 
-input[type="text"]:invalid,
+/* input[type="text"]:invalid,
 input[type="password"]:invalid,
 input[type="email"]:invalid,
 input[type="tel"]:invalid,
@@ -549,9 +552,9 @@ textarea:focus {
   background: rgba(255, 255, 255, 0.075);
   border-color: #ffffff;
   box-shadow: 0 0 0 1px #ffffff;
-}
+} */
 
-select {
+/* select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23ffffff' /%3E%3C/svg%3E");
   background-size: 1.25rem;
   background-repeat: no-repeat;
@@ -674,8 +677,8 @@ input[type="checkbox"] + label:before {
 }
 
 input[type="radio"] + label:before {
-  border-radius: 100%;
-}
+  border-radius: 100%; 
+}*/
 
 ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5) !important;
@@ -1691,11 +1694,15 @@ body.is-preload #header .content .inner {
     -webkit-transform 0.325s ease-in-out;
   -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+  padding: 2rem 2rem 2rem 2rem;
   position: relative;
   width: 40rem;
   max-width: 100%;
-  background-color: rgba(27, 31, 34, 0.85);
+  background-color: #f7f7f7;
+  color: #6b6b6b;
+  /* background-color: #e0d2bf; */
+  /* background-color: #e0cfbf; */
+  /* background-color: rgba(27, 31, 34, 0.85); */
   border-radius: 4px;
   opacity: 0;
 }
