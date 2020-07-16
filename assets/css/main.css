@@ -1298,7 +1298,7 @@ button {
   /* background-image: url("../../images/redblack.jpg"); */
   /* background-image: url("../../images/redblack2.jpg"); */
   /* background-image: url("../../images/katbackground1.jpg"); */
-  background-image: url("../../images/bubblebackground.png");
+  background-image: url("../../img/bubblebackground.png");
 
   background-position: center;
   background-size: cover;
@@ -1696,7 +1696,7 @@ body.is-preload #header .content .inner {
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 2rem 2rem 2rem 2rem;
   position: relative;
-  width: 40rem;
+  /* width: 40rem; */
   max-width: 100%;
   background-color: #f7f7f7;
   color: #6b6b6b;
@@ -1821,7 +1821,7 @@ body.is-preload #footer {
 }
 
 /* Gallery (Traversy)  */
-.container {
+/* .container {
   max-width: 100%;
   margin: auto;
   border: #fff solid 3px;
@@ -1844,11 +1844,11 @@ body.is-preload #footer {
 .imgs img {
   cursor: pointer;
   /* width: 150px !important; */
-  height: 150px !important;
-}
+/* height: 150px !important; */
+/* } */
 
 /* Fade in animation */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   to {
     opacity: 1;
   }
@@ -1860,8 +1860,75 @@ body.is-preload #footer {
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .imgs {
     grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+/* Lightbox */
+/* * {
+  margin-top: 10px;
+  margin: 5px;
+  padding: 0;
+  /* font-family: "montserrat", sans-serif; */
+/* box-sizing: border-box;
+} */
+
+.gallery-section {
+  width: 100%;
+  padding: 60px 0;
+  /* background: #f1f1f1; */
+}
+
+.gallery-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 5px 10px 5px;
+}
+
+.gallery-section .gallery {
+  /* display: flex; */
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+}
+
+.gallery-section .image {
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section .image img {
+  width: 100%;
+  /* height: 100%; */
+  height: 150px !important;
+  transition: 0.4s;
+}
+
+.gallery-section .image:hover img {
+  transform: scale(1.4) rotate(15deg);
+}
+
+@media screen and (max-width: 960px) {
+  .gallery-section .image {
+    flex: 33.33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-section .image {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-section .image {
+    flex: 100%;
   }
 }

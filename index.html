@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>KM Design</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+    <title>KM Design</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- <link href='https://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'> -->
-    <link href='https://fonts.googleapis.com/css?family=Buda:300' rel='stylesheet'>
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
+  
   <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
@@ -61,7 +58,7 @@
         </p>
 
         <p>
-          You need a contractor? No problem, I work with several highly qualiedcontractors in the area. You already have a contractor? 
+          You need a contractor? No problem, I work with several highly qualified contractors in the area. You already have a contractor? 
           I am happy to work with them - I work with contractors from California to New York – if they are willing, 
           I have a process to make it easy for everyone. 
           </p>
@@ -79,32 +76,66 @@
 
   <!-- Pic Gallery -->
 <article id="projects">
-  <h2 class="major">Projects</h2>
-  <div class="container">
-<div class= "main-img">
-  <img src="images/projects/tilson1.jpg" id="current" style="height: 480px;">
-</div>
+ <div class="gallery-section">
+      <div class="gallery-container">
+        <h2 class="major">Gallery</h2>    
+          <div class="gallery">
+          <a href="img/projects/tilson1.jpg" class="image">
+            <img src="img/projects/tilson1.jpg"
+           alt="" />
+          </a>
 
-<div class="imgs">
-  <img src="images/projects/tilson1.jpg">
-  <img src="images/projects/tilson3.jpg">
-   <img src="images/projects/kv.jpg">
-  <img src="images/projects/kv1.jpg">
-  <img src="images/projects/kv3.jpg">
-<img src="images/projects/byrd1.jpg"> 
-<img src="images/projects/small1.jpg">  
-  <img src="images/projects/small2.jpg">
-  <img src="images/projects/small3.jpg">
-<img src="images/projects/brown1.jpg" >
-  <img src="images/projects/brown2.jpg">
-  <img src="images/projects/brown3.jpg">
-  <!-- <img src="/images/projects/brown3resized.jpg"> --> 
-  <img src="images/projects/ottmud.jpg">
-  <img src="images/projects/pas.jpg">
-  <img src="images/projects/kitchen.jpg">
-  
-   </div>
-  </div>
+          <a href="img/projects/tilson3.jpg" class="image">
+            <img src="img/projects/tilson3.jpg" alt="" />
+          </a>
+
+          <a href="img/projects/kv.jpg" class="image">
+            <img src="img/projects/kv.jpg" alt="" />
+          </a>
+
+          <a href="img/projects/kv1.jpg" class="image">
+            <img src="img/projects/kv1.jpg" alt="" />
+          </a>
+
+          <a href="img/projects/kv3.jpg" class="image">
+            <img src="img/projects/kv3.jpg" alt="" />
+          </a>
+
+          <a href="/img/projects/byrd1.jpg" class="image">
+            <img src="/img/projects/byrd1.jpg" alt="" />
+          </a>
+
+          <a href="img/projects/small1.jpg" class="image">
+            <img src="img/projects/small1.jpg" alt="" />
+          </a>
+
+          <a href="/img/projects/small2.jpg" class="image">
+            <img src="/img/projects/small2.jpg" alt="" />
+          </a>
+          <a href="/img/projects/small3.jpg" class="image">
+            <img src="/img/projects/small3.jpg" alt="" />
+          </a>
+          <a href="img/projects/brown1.jpg" class="image">
+            <img src="img/projects/brown1.jpg" alt="" />
+          </a>
+          <a href="img/projects/brown2.jpg" class="image">
+            <img src="img/projects/brown2.jpg" alt="" />
+          </a>
+          <a href="img/projects/brown3.jpg" class="image">
+            <img src="img/projects/brown3.jpg" alt="" />
+          </a>
+          <a href="img/projects/ottmud.jpg" class="image">
+            <img src="img/projects/ottmud.jpg" alt="" />
+          </a>
+          <a href="img/projects/pas.jpg" class="image">
+            <img src="img/projects/pas.jpg" alt="" />
+          </a>
+          <a href="img/projects/kitchen.jpg" class="image">
+            <img src="img/projects/kitchen.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
 </article>  
        
   <!-- Contact -->
@@ -129,11 +160,24 @@
 
     <div id="bg"></div>
 
+<script>
+      $('.gallery').magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true,
+        },
+      });
+      </script>
+   
     <!-- Scripts -->
+    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    
+
   </body>
 </html>
