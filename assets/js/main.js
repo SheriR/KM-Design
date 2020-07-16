@@ -337,10 +337,10 @@
     });
 })(jQuery);
 
-$(".gallery").magnificPopup({
-  delegate: "a",
-  type: "image",
-  gallery: {
-    enabled: true,
-  },
-});
+// $(".gallery").magnificPopup({
+//   delegate: "a",
+//   type: "image",
+//   gallery: {
+//     enabled: true,
+//   },
+// });
