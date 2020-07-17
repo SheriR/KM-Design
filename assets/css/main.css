@@ -1289,14 +1289,6 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  /* background-image: url("../../images/greenpurple\ image.jpg"); */
-  /* background-image: url("../../images/redorangelight.jpg"); */
-  /* background-image: url("../../images/redorangeyellow.jpg"); */
-  /* background-image: url("../../images/red.jpg"); */
-  /* background-image: url("../../images/redorangecurve.jpg"); */
-  /* background-image: url("../../images/redblack.jpg"); */
-  /* background-image: url("../../images/redblack2.jpg"); */
-  /* background-image: url("../../images/katbackground1.jpg"); */
   background-image: url("../../img/bubblebackground.png");
 
   background-position: center;
