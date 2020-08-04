@@ -1676,8 +1676,7 @@ body.is-preload #header .content .inner {
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 4rem 2rem 3rem 2rem;
   position: relative;
-  /* width: 40rem; */
-  max-width: 80%;
+  max-width: 100%;
   background-color: #f7f7f7;
   color: #6b6b6b;
 
